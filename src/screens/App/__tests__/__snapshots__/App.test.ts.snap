@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Shapshots with default props 1`] = `
+<SafeAreaView
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <UsersList
+    itemsPerPage={5}
+    onPageChange={[Function]}
+  />
+</SafeAreaView>
+`;
+
+exports[`App Shapshots with default props and page in state 1`] = `
+<SafeAreaView
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <UsersList
+    itemsPerPage={5}
+    onPageChange={[Function]}
+  />
+</SafeAreaView>
+`;

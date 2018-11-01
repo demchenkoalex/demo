@@ -1,1 +1,1 @@
-export * from './UsersList'
+export { UsersList } from './UsersList'

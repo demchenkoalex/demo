@@ -3,7 +3,7 @@ import { Image, ImageStyle, Text, View } from 'react-native'
 import { User } from 'src/types'
 import styles from './styles'
 
-interface Props {
+export interface Props {
   user: User
 }
 

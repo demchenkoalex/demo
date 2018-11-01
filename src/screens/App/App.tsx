@@ -3,7 +3,7 @@ import { SafeAreaView, Text, TextStyle } from 'react-native'
 import { UsersList } from 'src/components'
 import styles from './styles'
 
-interface State {
+export interface State {
   page?: number
 }
 

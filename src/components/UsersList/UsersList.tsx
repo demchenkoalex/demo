@@ -15,7 +15,7 @@ import api from 'src/utils/apiConfig'
 import { UserRow } from '../UserRow'
 import styles from './styles'
 
-interface Props {
+export interface Props {
   itemsPerPage: number
   onPageChange: (page: number) => void
 }

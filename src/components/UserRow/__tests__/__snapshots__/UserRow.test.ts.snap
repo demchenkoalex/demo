@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserRow Shapshots with default props 1`] = `
+<Component
+  style={
+    Object {
+      "flex": 1,
+      "flexDirection": "row",
+      "marginHorizontal": 16,
+      "marginTop": 32,
+    }
+  }
+>
+  <Component
+    source={
+      Object {
+        "uri": "https://avatar.com/alex",
+      }
+    }
+    style={
+      Object {
+        "borderRadius": 20,
+        "height": 40,
+        "width": 40,
+      }
+    }
+  />
+  <Component
+    style={
+      Object {
+        "flex": 1,
+        "justifyContent": "center",
+        "marginLeft": 16,
+      }
+    }
+  >
+    <Component
+      numberOfLines={1}
+      style={
+        Object {
+          "fontSize": 16,
+          "fontWeight": "600",
+        }
+      }
+    >
+      Alex
+    </Component>
+    <Component
+      numberOfLines={1}
+      style={
+        Object {
+          "fontSize": 14,
+        }
+      }
+    >
+      Demchenko
+    </Component>
+  </Component>
+</Component>
+`;
