@@ -1,3 +1,4 @@
+/* tslint:disable */
 
 import MockAdapter from 'axios-mock-adapter'
 import React from 'react'
@@ -238,3 +239,5 @@ describe('UsersList', () => {
     })
   })
 })
+
+/* tslint:enable */
